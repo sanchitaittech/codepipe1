@@ -4,3 +4,7 @@ Resources:
     Type: 'AWS::S3::Bucket'
     Properties:
       BucketName: sanchih2020
+  MyVPC:
+    Type: AWS::EC2::VPC
+    Properties: 
+      CidrBlock: 10.2.0.0/16
